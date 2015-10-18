@@ -1,0 +1,31 @@
+# Site settings
+title: "FasThink"
+email: donglc@live.cn
+description: "web学习博客"
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "欢迎访问北极辰光的个人学习博客，在这里我会不定时发表WEB开发相关技术的文章。"
+title_image: ""
+# google_analytics: "UA-20365477-4"
+disqus_account: donglc
+github_repository: https://github.com/dlc16/myblog
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: _jacobtomlinson
+github_username:  dlc16
+linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
+google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/dlc16/myblog\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
